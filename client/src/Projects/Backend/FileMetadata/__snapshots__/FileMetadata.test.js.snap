@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FileMetadata /> renders correctly 1`] = `
+<div
+  className="FileMetadata"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col"
+      >
+        <h1>
+          File Metadata
+        </h1>
+      </div>
+    </div>
+  </div>
+</div>
+`;

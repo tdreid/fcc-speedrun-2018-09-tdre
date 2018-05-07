@@ -1,0 +1,11 @@
+.dropdown-item:hover, .dropdown-item:focus,
+.dropdown-item:hover a, .dropdown-item:focus a {
+  color: #f8f9fa;
+  background-color: #1A1A1A; }
+
+.dropdown-item:hover a, .dropdown-item:focus a {
+  text-decoration: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: none;
+  letter-spacing: 3px; }

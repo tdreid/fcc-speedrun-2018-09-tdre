@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TicTacToeGame /> renders correctly 1`] = `
+<div
+  className="TicTacToeGame"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col"
+      >
+        <h1>
+          Tic Tac Toe Game
+        </h1>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MarkdownPreviewer /> renders correctly 1`] = `
+<div
+  className="MarkdownPreviewer"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col"
+      >
+        <h1>
+          Markdown Previewer
+        </h1>
+      </div>
+    </div>
+  </div>
+</div>
+`;

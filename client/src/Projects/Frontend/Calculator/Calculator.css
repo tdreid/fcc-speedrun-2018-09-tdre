@@ -1,0 +1,5 @@
+.Calculator {
+  text-align: left;
+  margin-top: 40px; }
+  .Calculator > h1 {
+    text-transform: none; }

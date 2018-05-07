@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Calculator /> renders correctly 1`] = `
+<div
+  className="Calculator"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col"
+      >
+        <h1>
+          Calculator
+        </h1>
+      </div>
+    </div>
+  </div>
+</div>
+`;

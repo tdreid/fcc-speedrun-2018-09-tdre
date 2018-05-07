@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DataAcrosstheGlobe /> renders correctly 1`] = `
+<div
+  className="DataAcrosstheGlobe"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col"
+      >
+        <h1>
+          Data Acrossthe Globe
+        </h1>
+      </div>
+    </div>
+  </div>
+</div>
+`;
