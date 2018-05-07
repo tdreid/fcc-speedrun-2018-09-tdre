@@ -1,0 +1,11 @@
+.Home {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  >.card {
+    max-width: 400px;
+    width: 400px;
+    margin: 10px auto;
+    display: block;
+  }
+}
