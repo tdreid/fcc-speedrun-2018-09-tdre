@@ -20,16 +20,22 @@ const NavRoutes = () => {
             <Link to="/projects/frontend/TributePage">Tribute Page</Link>
           </DropdownItem>
           <DropdownItem>
-            <Link to="/projects/frontend/PersonalPortfolioWebpage">Personal Portfolio Webpage</Link>
+            <Link to="/projects/frontend/PersonalPortfolioWebpage">
+              Personal Portfolio Webpage
+            </Link>
           </DropdownItem>
           <DropdownItem>
-            <Link to="/projects/frontend/RandomQuoteMachine">Random Quote Machine</Link>
+            <Link to="/projects/frontend/RandomQuoteMachine">
+              Random Quote Machine
+            </Link>
           </DropdownItem>
           <DropdownItem>
             <Link to="/projects/frontend/LocalWeather">Local Weather</Link>
           </DropdownItem>
           <DropdownItem>
-            <Link to="/projects/frontend/WikipediaViewer">Wikipedia Viewer</Link>
+            <Link to="/projects/frontend/WikipediaViewer">
+              Wikipedia Viewer
+            </Link>
           </DropdownItem>
           <DropdownItem>
             <Link to="/projects/frontend/Twitchtv">Twitchtv</Link>
@@ -54,10 +60,14 @@ const NavRoutes = () => {
         </DropdownToggle>
         <DropdownMenu right>
           <DropdownItem>
-            <Link to="/projects/datavis/MarkdownPreviewer">Markdown Previewer</Link>
+            <Link to="/projects/datavis/MarkdownPreviewer">
+              Markdown Previewer
+            </Link>
           </DropdownItem>
           <DropdownItem>
-            <Link to="/projects/datavis/CamperLeaderboard">Camper Leaderboard</Link>
+            <Link to="/projects/datavis/CamperLeaderboard">
+              Camper Leaderboard
+            </Link>
           </DropdownItem>
           <DropdownItem>
             <Link to="/projects/datavis/RecipeBox">Recipe Box</Link>
@@ -72,16 +82,22 @@ const NavRoutes = () => {
             <Link to="/projects/datavis/BarChart">Bar Chart</Link>
           </DropdownItem>
           <DropdownItem>
-            <Link to="/projects/datavis/ScatterplotGraph">Scatterplot Graph</Link>
+            <Link to="/projects/datavis/ScatterplotGraph">
+              Scatterplot Graph
+            </Link>
           </DropdownItem>
           <DropdownItem>
             <Link to="/projects/datavis/HeatMap">Heat Map</Link>
           </DropdownItem>
           <DropdownItem>
-            <Link to="/projects/datavis/ForceDirectedGraph">Force Directed Graph</Link>
+            <Link to="/projects/datavis/ForceDirectedGraph">
+              Force Directed Graph
+            </Link>
           </DropdownItem>
           <DropdownItem>
-            <Link to="/projects/datavis/DataAcrosstheGlobe">Data Acrossthe Globe</Link>
+            <Link to="/projects/datavis/DataAcrosstheGlobe">
+              Data Acrossthe Globe
+            </Link>
           </DropdownItem>
         </DropdownMenu>
       </UncontrolledDropdown>
@@ -91,10 +107,14 @@ const NavRoutes = () => {
         </DropdownToggle>
         <DropdownMenu right>
           <DropdownItem>
-            <Link to="/projects/backend/TimestampMicroservice">Timestamp Microservice</Link>
+            <Link to="/projects/backend/TimestampMicroservice">
+              Timestamp Microservice
+            </Link>
           </DropdownItem>
           <DropdownItem>
-            <Link to="/projects/backend/RequestHeaderParser">Request Header Parser</Link>
+            <Link to="/projects/backend/RequestHeaderParser">
+              Request Header Parser
+            </Link>
           </DropdownItem>
           <DropdownItem>
             <Link to="/projects/backend/URLShortener">U R L Shortener</Link>
@@ -109,13 +129,17 @@ const NavRoutes = () => {
             <Link to="/projects/backend/VotingApp">Voting App</Link>
           </DropdownItem>
           <DropdownItem>
-            <Link to="/projects/backend/NightlifeCoordination">Nightlife Coordination</Link>
+            <Link to="/projects/backend/NightlifeCoordination">
+              Nightlife Coordination
+            </Link>
           </DropdownItem>
           <DropdownItem>
             <Link to="/projects/backend/StockMarket">Stock Market</Link>
           </DropdownItem>
           <DropdownItem>
-            <Link to="/projects/backend/BookTradingClub">Book Trading Club</Link>
+            <Link to="/projects/backend/BookTradingClub">
+              Book Trading Club
+            </Link>
           </DropdownItem>
           <DropdownItem>
             <Link to="/projects/backend/PinterestClone">Pinterest Clone</Link>
@@ -124,5 +148,5 @@ const NavRoutes = () => {
       </UncontrolledDropdown>
     </Nav>
   );
-}
+};
 export default NavRoutes;

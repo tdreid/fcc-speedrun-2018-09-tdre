@@ -35,37 +35,82 @@ const ProjectRoutes = () => {
   return (
     <div>
       <Route path="/projects/frontend/TributePage" component={TributePage} />
-      <Route path="/projects/frontend/PersonalPortfolioWebpage" component={PersonalPortfolioWebpage} />
-      <Route path="/projects/frontend/RandomQuoteMachine" component={RandomQuoteMachine} />
+      <Route
+        path="/projects/frontend/PersonalPortfolioWebpage"
+        component={PersonalPortfolioWebpage}
+      />
+      <Route
+        path="/projects/frontend/RandomQuoteMachine"
+        component={RandomQuoteMachine}
+      />
       <Route path="/projects/frontend/LocalWeather" component={LocalWeather} />
-      <Route path="/projects/frontend/WikipediaViewer" component={WikipediaViewer} />
+      <Route
+        path="/projects/frontend/WikipediaViewer"
+        component={WikipediaViewer}
+      />
       <Route path="/projects/frontend/Twitchtv" component={Twitchtv} />
       <Route path="/projects/frontend/Calculator" component={Calculator} />
-      <Route path="/projects/frontend/PomodoroClock" component={PomodoroClock} />
-      <Route path="/projects/frontend/TicTacToeGame" component={TicTacToeGame} />
+      <Route
+        path="/projects/frontend/PomodoroClock"
+        component={PomodoroClock}
+      />
+      <Route
+        path="/projects/frontend/TicTacToeGame"
+        component={TicTacToeGame}
+      />
       <Route path="/projects/frontend/SimonGame" component={SimonGame} />
-      <Route path="/projects/datavis/MarkdownPreviewer" component={MarkdownPreviewer} />
-      <Route path="/projects/datavis/CamperLeaderboard" component={CamperLeaderboard} />
+      <Route
+        path="/projects/datavis/MarkdownPreviewer"
+        component={MarkdownPreviewer}
+      />
+      <Route
+        path="/projects/datavis/CamperLeaderboard"
+        component={CamperLeaderboard}
+      />
       <Route path="/projects/datavis/RecipeBox" component={RecipeBox} />
       <Route path="/projects/datavis/GameofLive" component={GameofLive} />
       <Route path="/projects/datavis/RoguelikeGame" component={RoguelikeGame} />
       <Route path="/projects/datavis/BarChart" component={BarChart} />
-      <Route path="/projects/datavis/ScatterplotGraph" component={ScatterplotGraph} />
+      <Route
+        path="/projects/datavis/ScatterplotGraph"
+        component={ScatterplotGraph}
+      />
       <Route path="/projects/datavis/HeatMap" component={HeatMap} />
-      <Route path="/projects/datavis/ForceDirectedGraph" component={ForceDirectedGraph} />
-      <Route path="/projects/datavis/DataAcrosstheGlobe" component={DataAcrosstheGlobe} />
-      <Route path="/projects/backend/TimestampMicroservice" component={TimestampMicroservice} />
-      <Route path="/projects/backend/RequestHeaderParser" component={RequestHeaderParser} />
+      <Route
+        path="/projects/datavis/ForceDirectedGraph"
+        component={ForceDirectedGraph}
+      />
+      <Route
+        path="/projects/datavis/DataAcrosstheGlobe"
+        component={DataAcrosstheGlobe}
+      />
+      <Route
+        path="/projects/backend/TimestampMicroservice"
+        component={TimestampMicroservice}
+      />
+      <Route
+        path="/projects/backend/RequestHeaderParser"
+        component={RequestHeaderParser}
+      />
       <Route path="/projects/backend/URLShortener" component={URLShortener} />
       <Route path="/projects/backend/ImageSearch" component={ImageSearch} />
       <Route path="/projects/backend/FileMetadata" component={FileMetadata} />
       <Route path="/projects/backend/VotingApp" component={VotingApp} />
-      <Route path="/projects/backend/NightlifeCoordination" component={NightlifeCoordination} />
+      <Route
+        path="/projects/backend/NightlifeCoordination"
+        component={NightlifeCoordination}
+      />
       <Route path="/projects/backend/StockMarket" component={StockMarket} />
-      <Route path="/projects/backend/BookTradingClub" component={BookTradingClub} />
-      <Route path="/projects/backend/PinterestClone" component={PinterestClone} />
+      <Route
+        path="/projects/backend/BookTradingClub"
+        component={BookTradingClub}
+      />
+      <Route
+        path="/projects/backend/PinterestClone"
+        component={PinterestClone}
+      />
     </div>
   );
-}
+};
 
 export default ProjectRoutes;
