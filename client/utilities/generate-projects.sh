@@ -66,7 +66,7 @@ EOT
 # Initialize the tests for the project
 cat << EOT >> ${folder}/${project}/${project}.test.js
 import React from "react";
-import renderer from 'react-test-renderer';
+import renderer from "react-test-renderer";
 import { shallow } from "enzyme";
 
 import ${project} from "./${project}";

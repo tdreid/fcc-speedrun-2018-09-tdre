@@ -53,7 +53,16 @@ declare -a Backend_projects=(
 # Create the Home Component
 cat << EOT >> ../src/Home/Home.js
 import React from "react";
-import { Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle } from "reactstrap";
+import { Link } from "react-router-dom";
+import {
+  Card,
+  CardImg,
+  CardText,
+  CardBody,
+  CardTitle,
+  CardSubtitle,
+  Button
+} from "reactstrap";
 import "./Home.css";
 
 const Home = () => {
@@ -70,7 +79,15 @@ cat << EOT >> ../src/Home/Home.js
         <CardBody>
           <CardTitle>${NAME}</CardTitle>
           <CardSubtitle>FreeCodeCamp Frontend Project</CardSubtitle>
-          <CardText>Description</CardText>
+            <CardText>
+              <br />
+              Started:
+              <br />
+              Completed:
+            </CardText>
+            <Link to="/projects/frontend/${project}">
+              <Button color="primary">View Project</Button>
+            </Link>
         </CardBody>
       </Card>
 EOT
@@ -84,7 +101,15 @@ cat << EOT >> ../src/Home/Home.js
         <CardBody>
           <CardTitle>${NAME}</CardTitle>
           <CardSubtitle>FreeCodeCamp Datavis Project</CardSubtitle>
-          <CardText>Description</CardText>
+            <CardText>
+              <br />
+              Started:
+              <br />
+              Completed:
+            </CardText>
+            <Link to="/projects/frontend/${project}">
+              <Button color="primary">View Project</Button>
+            </Link>
         </CardBody>
       </Card>
 EOT
@@ -98,7 +123,15 @@ cat << EOT >> ../src/Home/Home.js
         <CardBody>
           <CardTitle>${NAME}</CardTitle>
           <CardSubtitle>FreeCodeCamp Backend Project</CardSubtitle>
-          <CardText>Description</CardText>
+            <CardText>
+              <br />
+              Started:
+              <br />
+              Completed:
+            </CardText>
+            <Link to="/projects/frontend/${project}">
+              <Button color="primary">View Project</Button>
+            </Link>
         </CardBody>
       </Card>
 EOT
@@ -126,6 +159,26 @@ cat << EOT >> ../src/Home/Home.scss
 }
 EOT
 
+# Create the Home test
+cat << EOT >> ../src/Home/Home.test.js
+import React from "react";
+import { shallow } from "enzyme";
+import { Card } from "reactstrap";
+
+import Home from "./Home";
+
+describe("<Home />", () => {
+  it("renders without crashing", () => {
+    shallow(<Home />);
+  });
+  it("contains a card for each FCC project", () => {
+    const wrapper = shallow(<Home />);
+    expect(wrapper.find(Card)).toHaveLength(30);
+  });
+});
+EOT
+
+# Export the Home component
 cat << EOT >> ../src/Home/index.js
 export { default as Home } from "./Home";
 EOT
