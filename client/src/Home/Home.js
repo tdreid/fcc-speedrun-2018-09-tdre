@@ -23,12 +23,12 @@ const Home = () => {
             <CardSubtitle>FreeCodeCamp Frontend Project</CardSubtitle>
             <CardText>
               <br />
-              Started:
+              <span className="Home_datelabel">Started:</span> May 8, 2018
               <br />
-              Completed:
+              <span className="Home_datelabel">Completed:</span> May 8, 2018
             </CardText>
             <Link to="/projects/frontend/TributePage">
-              <Button color="primary">View Project</Button>
+              <Button color="info">View Project</Button>
             </Link>
           </CardBody>
         </Card>
@@ -43,7 +43,9 @@ const Home = () => {
               Completed:
             </CardText>
             <Link to="/projects/frontend/PersonalPortfolioWebpage">
-              <Button color="primary">View Project</Button>
+              <Button disabled color="primary">
+                View Project
+              </Button>
             </Link>
           </CardBody>
         </Card>
@@ -58,7 +60,9 @@ const Home = () => {
               Completed:
             </CardText>
             <Link to="/projects/frontend/RandomQuoteMachine">
-              <Button color="primary">View Project</Button>
+              <Button disabled color="primary">
+                View Project
+              </Button>
             </Link>
           </CardBody>
         </Card>
@@ -73,7 +77,9 @@ const Home = () => {
               Completed:
             </CardText>
             <Link to="/projects/frontend/LocalWeather">
-              <Button color="primary">View Project</Button>
+              <Button disabled color="primary">
+                View Project
+              </Button>
             </Link>
           </CardBody>
         </Card>
@@ -88,7 +94,9 @@ const Home = () => {
               Completed:
             </CardText>
             <Link to="/projects/frontend/WikipediaViewer">
-              <Button color="primary">View Project</Button>
+              <Button disabled color="primary">
+                View Project
+              </Button>
             </Link>
           </CardBody>
         </Card>
@@ -103,7 +111,9 @@ const Home = () => {
               Completed:
             </CardText>
             <Link to="/projects/frontend/Twitchtv">
-              <Button color="primary">View Project</Button>
+              <Button disabled color="primary">
+                View Project
+              </Button>
             </Link>
           </CardBody>
         </Card>
@@ -118,7 +128,9 @@ const Home = () => {
               Completed:
             </CardText>
             <Link to="/projects/frontend/Calculator">
-              <Button color="primary">View Project</Button>
+              <Button disabled color="primary">
+                View Project
+              </Button>
             </Link>
           </CardBody>
         </Card>
@@ -133,7 +145,9 @@ const Home = () => {
               Completed:
             </CardText>
             <Link to="/projects/frontend/PomodoroClock">
-              <Button color="primary">View Project</Button>
+              <Button disabled color="primary">
+                View Project
+              </Button>
             </Link>
           </CardBody>
         </Card>
@@ -148,7 +162,9 @@ const Home = () => {
               Completed:
             </CardText>
             <Link to="/projects/frontend/TicTacToeGame">
-              <Button color="primary">View Project</Button>
+              <Button disabled color="primary">
+                View Project
+              </Button>
             </Link>
           </CardBody>
         </Card>
@@ -163,7 +179,9 @@ const Home = () => {
               Completed:
             </CardText>
             <Link to="/projects/frontend/SimonGame">
-              <Button color="primary">View Project</Button>
+              <Button disabled color="primary">
+                View Project
+              </Button>
             </Link>
           </CardBody>
         </Card>
@@ -178,7 +196,9 @@ const Home = () => {
               Completed:
             </CardText>
             <Link to="/projects/frontend/MarkdownPreviewer">
-              <Button color="primary">View Project</Button>
+              <Button disabled color="primary">
+                View Project
+              </Button>
             </Link>
           </CardBody>
         </Card>
@@ -193,7 +213,9 @@ const Home = () => {
               Completed:
             </CardText>
             <Link to="/projects/frontend/CamperLeaderboard">
-              <Button color="primary">View Project</Button>
+              <Button disabled color="primary">
+                View Project
+              </Button>
             </Link>
           </CardBody>
         </Card>
@@ -208,7 +230,9 @@ const Home = () => {
               Completed:
             </CardText>
             <Link to="/projects/frontend/RecipeBox">
-              <Button color="primary">View Project</Button>
+              <Button disabled color="primary">
+                View Project
+              </Button>
             </Link>
           </CardBody>
         </Card>
@@ -223,7 +247,9 @@ const Home = () => {
               Completed:
             </CardText>
             <Link to="/projects/frontend/GameofLive">
-              <Button color="primary">View Project</Button>
+              <Button disabled color="primary">
+                View Project
+              </Button>
             </Link>
           </CardBody>
         </Card>
@@ -238,7 +264,9 @@ const Home = () => {
               Completed:
             </CardText>
             <Link to="/projects/frontend/RoguelikeGame">
-              <Button color="primary">View Project</Button>
+              <Button disabled color="primary">
+                View Project
+              </Button>
             </Link>
           </CardBody>
         </Card>
@@ -253,7 +281,9 @@ const Home = () => {
               Completed:
             </CardText>
             <Link to="/projects/frontend/BarChart">
-              <Button color="primary">View Project</Button>
+              <Button disabled color="primary">
+                View Project
+              </Button>
             </Link>
           </CardBody>
         </Card>
@@ -268,7 +298,9 @@ const Home = () => {
               Completed:
             </CardText>
             <Link to="/projects/frontend/ScatterplotGraph">
-              <Button color="primary">View Project</Button>
+              <Button disabled color="primary">
+                View Project
+              </Button>
             </Link>
           </CardBody>
         </Card>
@@ -283,7 +315,9 @@ const Home = () => {
               Completed:
             </CardText>
             <Link to="/projects/frontend/HeatMap">
-              <Button color="primary">View Project</Button>
+              <Button disabled color="primary">
+                View Project
+              </Button>
             </Link>
           </CardBody>
         </Card>
@@ -298,7 +332,9 @@ const Home = () => {
               Completed:
             </CardText>
             <Link to="/projects/frontend/ForceDirectedGraph">
-              <Button color="primary">View Project</Button>
+              <Button disabled color="primary">
+                View Project
+              </Button>
             </Link>
           </CardBody>
         </Card>
@@ -313,7 +349,9 @@ const Home = () => {
               Completed:
             </CardText>
             <Link to="/projects/frontend/DataAcrosstheGlobe">
-              <Button color="primary">View Project</Button>
+              <Button disabled color="primary">
+                View Project
+              </Button>
             </Link>
           </CardBody>
         </Card>
@@ -328,7 +366,9 @@ const Home = () => {
               Completed:
             </CardText>
             <Link to="/projects/frontend/TimestampMicroservice">
-              <Button color="primary">View Project</Button>
+              <Button disabled color="primary">
+                View Project
+              </Button>
             </Link>
           </CardBody>
         </Card>
@@ -343,7 +383,9 @@ const Home = () => {
               Completed:
             </CardText>
             <Link to="/projects/frontend/RequestHeaderParser">
-              <Button color="primary">View Project</Button>
+              <Button disabled color="primary">
+                View Project
+              </Button>
             </Link>
           </CardBody>
         </Card>
@@ -358,7 +400,9 @@ const Home = () => {
               Completed:
             </CardText>
             <Link to="/projects/frontend/URLShortener">
-              <Button color="primary">View Project</Button>
+              <Button disabled color="primary">
+                View Project
+              </Button>
             </Link>
           </CardBody>
         </Card>
@@ -373,7 +417,9 @@ const Home = () => {
               Completed:
             </CardText>
             <Link to="/projects/frontend/ImageSearch">
-              <Button color="primary">View Project</Button>
+              <Button disabled color="primary">
+                View Project
+              </Button>
             </Link>
           </CardBody>
         </Card>
@@ -388,7 +434,9 @@ const Home = () => {
               Completed:
             </CardText>
             <Link to="/projects/frontend/FileMetadata">
-              <Button color="primary">View Project</Button>
+              <Button disabled color="primary">
+                View Project
+              </Button>
             </Link>
           </CardBody>
         </Card>
@@ -403,7 +451,9 @@ const Home = () => {
               Completed:
             </CardText>
             <Link to="/projects/frontend/VotingApp">
-              <Button color="primary">View Project</Button>
+              <Button disabled color="primary">
+                View Project
+              </Button>
             </Link>
           </CardBody>
         </Card>
@@ -418,7 +468,9 @@ const Home = () => {
               Completed:
             </CardText>
             <Link to="/projects/frontend/NightlifeCoordination">
-              <Button color="primary">View Project</Button>
+              <Button disabled color="primary">
+                View Project
+              </Button>
             </Link>
           </CardBody>
         </Card>
@@ -433,7 +485,9 @@ const Home = () => {
               Completed:
             </CardText>
             <Link to="/projects/frontend/StockMarket">
-              <Button color="primary">View Project</Button>
+              <Button disabled color="primary">
+                View Project
+              </Button>
             </Link>
           </CardBody>
         </Card>
@@ -448,7 +502,9 @@ const Home = () => {
               Completed:
             </CardText>
             <Link to="/projects/frontend/BookTradingClub">
-              <Button color="primary">View Project</Button>
+              <Button disabled color="primary">
+                View Project
+              </Button>
             </Link>
           </CardBody>
         </Card>
@@ -463,7 +519,9 @@ const Home = () => {
               Completed:
             </CardText>
             <Link to="/projects/frontend/PinterestClone">
-              <Button color="primary">View Project</Button>
+              <Button disabled color="primary">
+                View Project
+              </Button>
             </Link>
           </CardBody>
         </Card>
