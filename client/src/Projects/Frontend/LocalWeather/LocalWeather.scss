@@ -1,8 +1,26 @@
 .LocalWeather {
-  text-align: left;
+  text-align: center;
   margin-top: 40px;
 
   &>h1 {
     text-transform: none
+  }
+  >.card {
+    max-width: 400px;
+    width: 400px;
+    margin: 10px auto;
+    display: block;
+    .card-subtitle {
+      margin-top: 20px;
+    }
+    .card-text {
+      min-height: 70px;
+      margin-top: 20px;
+    }
+  }
+  &_buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
 }
