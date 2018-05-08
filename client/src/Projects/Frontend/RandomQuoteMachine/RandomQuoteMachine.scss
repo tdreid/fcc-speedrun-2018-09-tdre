@@ -5,4 +5,18 @@
   &>h1 {
     text-transform: none
   }
+  >.card {
+    max-width: 400px;
+    width: 400px;
+    margin: 10px auto;
+    display: block;
+    .card-text {
+      min-height: 120px;
+    }
+  }
+  &_buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
