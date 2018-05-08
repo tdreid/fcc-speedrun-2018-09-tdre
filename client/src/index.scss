@@ -11,3 +11,23 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: none;
   letter-spacing: 3px;
 }
+body {
+  color: #303030;
+  background: rgb(228, 228, 228);
+}
+b, strong {
+  font-weight: 600;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+a {
+  color: #e27900;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
