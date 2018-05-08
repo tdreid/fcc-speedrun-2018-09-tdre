@@ -53,7 +53,7 @@ declare -a Backend_projects=(
 # Create the Home Component
 cat << EOT >> ../src/Home/Home.js
 import React from "react";
-import { Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle } from 'reactstrap';
+import { Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle } from "reactstrap";
 import "./Home.css";
 
 const Home = () => {

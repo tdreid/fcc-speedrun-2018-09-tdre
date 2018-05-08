@@ -37,7 +37,7 @@ NAME=`echo ${project} | sed -e 's/\([A-Z]\)/ \1/g' -e 's/^ //'`
 
 cat << EOT >> ${folder}/${project}/${project}.js
 import React from "react";
-import { Container, Row, Col } from 'reactstrap';
+import { Container, Row, Col } from "reactstrap";
 
 import "./${project}.css";
 
