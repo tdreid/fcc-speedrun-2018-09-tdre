@@ -16,19 +16,10 @@ class Calculator extends Component {
 
     this.state = {
       display: "",
-      warning: "No Eval"
+      warning: ""
     };
   }
 
-  // operators list
-  // value represents precidence
-  // +- evaluate before */
-  operators = {
-    "+": 0,
-    "-": 0,
-    "*": 1,
-    "/": 1
-  };
   /**
    * processInput
    * Appends input to the current calculation
@@ -44,27 +35,29 @@ class Calculator extends Component {
    */
   processInput = input => {
     const displayLast = this.state.display.slice(-1);
+    const operators = {
+      "+": 0,
+      "-": 0,
+      "*": 1,
+      "/": 1
+    };
     if (this.state.display.length > 9) {
       this.setState({
         warning: "Input full"
       });
-    } else if (displayLast === "." && input === ".") {
-      this.setState({
-        warning: "Double Dot"
-      });
     } else if (
-      this.operators.hasOwnProperty(displayLast) &&
-      this.operators.hasOwnProperty(input)
+      (displayLast === "." && input === ".") ||
+      (operators.hasOwnProperty(displayLast) &&
+        operators.hasOwnProperty(input) &&
+        input !== "-") ||
+      (displayLast === "" && operators.hasOwnProperty(input))
     ) {
       this.setState({
-        warning: "Double Operator"
-      });
-    } else if (displayLast === "" && this.operators.hasOwnProperty(input)) {
-      this.setState({
-        warning: "Operator first"
+        warning: "Invalid Input"
       });
     } else {
       this.setState({
+        warning: "",
         display: this.state.display + input
       });
     }
@@ -77,7 +70,7 @@ class Calculator extends Component {
    */
   processClear = input => {
     this.setState({
-      warning: "No Eval",
+      warning: "",
       display: ""
     });
   };
@@ -85,9 +78,25 @@ class Calculator extends Component {
   /**
    * processResult
    * Evaluate the current calculation
+   *
+   * Note: uses eval which is both unsafe
+   * and lazy - but this is for a speedrun
+   * and reverse polish eval from scratch
+   * would take a few hours and a few hundred
+   * lines of code I don't have time for right now
    * @memberof Calculator
    */
-  processResult = input => {};
+  processResult = () => {
+    // eslint-disable-next-line
+    const result = eval(this.state.display);
+
+    if (result) {
+      this.setState({
+        warning: "",
+        display: "" + result
+      });
+    }
+  };
 
   /**
    * render
