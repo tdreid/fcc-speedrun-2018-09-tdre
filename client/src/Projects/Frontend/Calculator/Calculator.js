@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Card } from "reactstrap";
 
 import "./Calculator.css";
+
 /**
  * Implements a simple calculator component
  * that provides addition, subtraction,
@@ -19,6 +20,20 @@ class Calculator extends Component {
       warning: ""
     };
   }
+  /**
+   * processEntry
+   * Handles user input and passes it to the
+   * appropriate function
+   * @memberof Calculator
+   */
+  processEntry = e => {
+    const input = e.target.value;
+    if (input === "=") {
+      this.processResult();
+    } else {
+      this.processInput(input);
+    }
+  };
 
   /**
    * processInput
@@ -35,22 +50,16 @@ class Calculator extends Component {
    */
   processInput = input => {
     const displayLast = this.state.display.slice(-1);
-    const operators = {
-      "+": 0,
-      "-": 0,
-      "*": 1,
-      "/": 1
-    };
+    const operators = ["+", "-", "*", "/"];
+
     if (this.state.display.length > 9) {
       this.setState({
         warning: "Input full"
       });
     } else if (
       (displayLast === "." && input === ".") ||
-      (operators.hasOwnProperty(displayLast) &&
-        operators.hasOwnProperty(input) &&
-        input !== "-") ||
-      (displayLast === "" && operators.hasOwnProperty(input))
+      (operators.includes(displayLast) && operators.includes(input)) ||
+      (displayLast === "" && operators.includes(input))
     ) {
       this.setState({
         warning: "Invalid Input"
@@ -87,14 +96,23 @@ class Calculator extends Component {
    * @memberof Calculator
    */
   processResult = () => {
-    // eslint-disable-next-line
-    const result = eval(this.state.display);
+    const displayLast = this.state.display.slice(-1);
+    const operators = ["+", "-", "*", "/"];
 
-    if (result) {
+    // catch trailing operator so it doesn't break eval
+    if (operators.includes(displayLast)) {
       this.setState({
-        warning: "",
-        display: "" + result
+        warning: "Invalid Input"
       });
+    } else {
+      // eslint-disable-next-line
+      const result = eval(this.state.display);
+      if (result) {
+        this.setState({
+          warning: "",
+          display: "" + result
+        });
+      }
     }
   };
 
@@ -111,126 +129,30 @@ class Calculator extends Component {
           <h1>JavaScript Calculator</h1>
           <h2>{this.state.warning}</h2>
           <div className="Calculator_contents">
-            <button
-              onClick={() => {
-                this.processClear();
-              }}
-            >
-              C
-            </button>
+            <button onClick={this.processClear}>C</button>
             <div className="Calculator_display">{this.state.display}</div>
-            <button
-              onClick={() => {
-                this.processInput("7");
-              }}
-            >
-              7
-            </button>
-            <button
-              onClick={() => {
-                this.processInput("8");
-              }}
-            >
-              8
-            </button>
-            <button
-              onClick={() => {
-                this.processInput("9");
-              }}
-            >
-              9
-            </button>
-            <button
-              onClick={() => {
-                this.processInput("+");
-              }}
-            >
-              +
-            </button>
-            <button
-              onClick={() => {
-                this.processInput("4");
-              }}
-            >
-              4
-            </button>
-            <button
-              onClick={() => {
-                this.processInput("5");
-              }}
-            >
-              5
-            </button>
-            <button
-              onClick={() => {
-                this.processInput("6");
-              }}
-            >
-              6
-            </button>
-            <button
-              onClick={() => {
-                this.processInput("-");
-              }}
-            >
-              -
-            </button>
-            <button
-              onClick={() => {
-                this.processInput("1");
-              }}
-            >
-              1
-            </button>
-            <button
-              onClick={() => {
-                this.processInput("2");
-              }}
-            >
-              2
-            </button>
-            <button
-              onClick={() => {
-                this.processInput("3");
-              }}
-            >
-              3
-            </button>
-            <button
-              onClick={() => {
-                this.processInput("*");
-              }}
-            >
-              *
-            </button>
-            <button
-              onClick={() => {
-                this.processInput("0");
-              }}
-            >
-              0
-            </button>
-            <button
-              onClick={() => {
-                this.processInput(".");
-              }}
-            >
-              .
-            </button>
-            <button
-              onClick={() => {
-                this.processResult();
-              }}
-            >
-              =
-            </button>
-            <button
-              onClick={() => {
-                this.processInput("/");
-              }}
-            >
-              /
-            </button>
+            {[
+              "7",
+              "8",
+              "9",
+              "+",
+              "4",
+              "5",
+              "6",
+              "-",
+              "1",
+              "2",
+              "3",
+              "*",
+              "0",
+              ".",
+              "=",
+              "/"
+            ].map(button => (
+              <button key={button} value={button} onClick={this.processEntry}>
+                {button}
+              </button>
+            ))}
           </div>
         </Card>
       </div>
