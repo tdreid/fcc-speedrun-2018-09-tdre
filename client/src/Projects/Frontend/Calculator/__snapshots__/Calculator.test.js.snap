@@ -5,18 +5,123 @@ exports[`<Calculator /> renders correctly 1`] = `
   className="Calculator"
 >
   <div
-    className="container"
+    className="card"
   >
+    <h1>
+      JavaScript Calculator
+    </h1>
+    <h2>
+      
+    </h2>
     <div
-      className="row"
+      className="Calculator_contents"
     >
-      <div
-        className="col"
+      <button
+        onClick={[Function]}
       >
-        <h1>
-          Calculator
-        </h1>
+        C
+      </button>
+      <div
+        className="Calculator_display"
+      >
+        
       </div>
+      <button
+        onClick={[Function]}
+        value="7"
+      >
+        7
+      </button>
+      <button
+        onClick={[Function]}
+        value="8"
+      >
+        8
+      </button>
+      <button
+        onClick={[Function]}
+        value="9"
+      >
+        9
+      </button>
+      <button
+        onClick={[Function]}
+        value="+"
+      >
+        +
+      </button>
+      <button
+        onClick={[Function]}
+        value="4"
+      >
+        4
+      </button>
+      <button
+        onClick={[Function]}
+        value="5"
+      >
+        5
+      </button>
+      <button
+        onClick={[Function]}
+        value="6"
+      >
+        6
+      </button>
+      <button
+        onClick={[Function]}
+        value="-"
+      >
+        -
+      </button>
+      <button
+        onClick={[Function]}
+        value="1"
+      >
+        1
+      </button>
+      <button
+        onClick={[Function]}
+        value="2"
+      >
+        2
+      </button>
+      <button
+        onClick={[Function]}
+        value="3"
+      >
+        3
+      </button>
+      <button
+        onClick={[Function]}
+        value="*"
+      >
+        *
+      </button>
+      <button
+        onClick={[Function]}
+        value="0"
+      >
+        0
+      </button>
+      <button
+        onClick={[Function]}
+        value="."
+      >
+        .
+      </button>
+      <button
+        onClick={[Function]}
+        value="="
+      >
+        =
+      </button>
+      <button
+        onClick={[Function]}
+        value="/"
+      >
+        /
+      </button>
     </div>
   </div>
 </div>
