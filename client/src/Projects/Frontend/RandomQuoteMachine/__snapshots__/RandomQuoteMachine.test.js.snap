@@ -5,17 +5,43 @@ exports[`<RandomQuoteMachine /> renders correctly 1`] = `
   className="RandomQuoteMachine"
 >
   <div
-    className="container"
+    className="card"
   >
     <div
-      className="row"
+      className="card-body"
     >
-      <div
-        className="col"
+      <h5
+        className="card-title"
       >
-        <h1>
-          Random Quote Machine
-        </h1>
+        Chuck Norris Joke Generator
+      </h5>
+      <p
+        className="card-text"
+      >
+        
+      </p>
+      <div
+        className="RandomQuoteMachine_buttons"
+      >
+        <button
+          className="btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          New quote
+        </button>
+        <a
+          href="https://twitter.com/intent/tweet?via=P1xt&hashtags=Speedrun&text="
+          target="_blank"
+        >
+          <button
+            className="btn btn-success"
+            onClick={[Function]}
+            type={undefined}
+          >
+            Tweet joke
+          </button>
+        </a>
       </div>
     </div>
   </div>
