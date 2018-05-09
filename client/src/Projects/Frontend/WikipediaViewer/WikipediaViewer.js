@@ -10,8 +10,21 @@ import {
 } from "reactstrap";
 
 import "./WikipediaViewer.css";
-
+/**
+ * Component for displaying an input field which
+ * allows the user to search wikipedia.
+ *
+ * Also displays a button for retrieving a random
+ * Wikipedia article.
+ * @class WikipediaViewer
+ * @extends Component
+ */
 class WikipediaViewer extends Component {
+  /**
+   * constructor
+   * Creates an instance of WikipediaViewer.
+   * @memberof WikipediaViewer
+   */
   constructor() {
     super();
 
@@ -20,6 +33,14 @@ class WikipediaViewer extends Component {
       wikiMatches: null
     };
   }
+
+  /**
+   * handleChange
+   * Respond to user input by searching for entries
+   * matching the current input on Wikipedia
+   * @memberof WikipediaViewer
+   * @param e Event
+   */
   handleChange = async e => {
     this.setState({ wikiSearch: e.target.value });
     const response = await fetch(
@@ -32,6 +53,13 @@ class WikipediaViewer extends Component {
     if (result.query && result.query.pages)
       this.setState({ wikiMatches: result.query.pages });
   };
+
+  /**
+   * render
+   * Render the Wikipedia Viewer
+   * @return
+   * @memberof WikipediaViewer
+   */
   render() {
     return (
       <div className="WikipediaViewer">
