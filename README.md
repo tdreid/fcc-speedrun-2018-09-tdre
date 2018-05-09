@@ -14,13 +14,13 @@ Stack: React/Express/MongoDB
 
 | Project                                                                                     | Complete Date | Blog Post | Code Link | Demo |
 | ------------------------------------------------------------------------------------------- | ------------- | --------- | --------- | ---- |
-| Build a Tribute Page                                         |               |           |           |      |
+| Build a Tribute Page                                         |  May 8, 2018             |           |           |      |
 | Build a Personal Portfolio Webpage                              |               |           |           |      |
-| Build a Random Quote Machine                         |               |           |           |      |
-| Show the Local Weather                                      |               |           |           |      |
-| Build a Wikipedia Viewer                                 |               |           |           |      |
-| Use the Twitch.tv JSON API                                  |               |           |           |      |
-| Build a JavaScript Calculator                                  |               |           |           |      |
+| Build a Random Quote Machine                         |  May 8, 2018              |           |           |      |
+| Show the Local Weather                                      |  May 8, 2018              |           |           |      |
+| Build a Wikipedia Viewer                                 |  May 8, 2018              |           |           |      |
+| Use the Twitch.tv JSON API                                  |  May 9, 2018              |           |           |      |
+| Build a JavaScript Calculator                                  |  May 9, 2018              |           |           |      |
 | Build a Pomodoro Clock                                     |               |           |           |      |
 | Build a Tic Tac Toe Game                                   |               |           |           |      |
 | Build a Simon Game                                             |               |           |           |      |

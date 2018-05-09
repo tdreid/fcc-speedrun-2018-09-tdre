@@ -70,14 +70,12 @@ const Home = () => {
             <CardSubtitle>FreeCodeCamp Frontend Project</CardSubtitle>
             <CardText>
               <br />
-              Started:
+              <span className="Home_datelabel">Started:</span> May 8, 2018
               <br />
-              Completed:
+              <span className="Home_datelabel">Completed:</span> May 8, 2018
             </CardText>
             <Link to="/projects/frontend/LocalWeather">
-              <Button disabled color="primary">
-                View Project
-              </Button>
+              <Button color="info">View Project</Button>
             </Link>
           </CardBody>
         </Card>
@@ -87,14 +85,12 @@ const Home = () => {
             <CardSubtitle>FreeCodeCamp Frontend Project</CardSubtitle>
             <CardText>
               <br />
-              Started:
+              <span className="Home_datelabel">Started:</span> May 8, 2018
               <br />
-              Completed:
+              <span className="Home_datelabel">Completed:</span> May 8, 2018
             </CardText>
             <Link to="/projects/frontend/WikipediaViewer">
-              <Button disabled color="primary">
-                View Project
-              </Button>
+              <Button color="info">View Project</Button>
             </Link>
           </CardBody>
         </Card>
@@ -104,14 +100,12 @@ const Home = () => {
             <CardSubtitle>FreeCodeCamp Frontend Project</CardSubtitle>
             <CardText>
               <br />
-              Started:
+              <span className="Home_datelabel">Started:</span> May 9, 2018
               <br />
-              Completed:
+              <span className="Home_datelabel">Completed:</span> May 9, 2018
             </CardText>
             <Link to="/projects/frontend/Twitchtv">
-              <Button disabled color="primary">
-                View Project
-              </Button>
+              <Button color="info">View Project</Button>
             </Link>
           </CardBody>
         </Card>
@@ -121,14 +115,12 @@ const Home = () => {
             <CardSubtitle>FreeCodeCamp Frontend Project</CardSubtitle>
             <CardText>
               <br />
-              Started:
+              <span className="Home_datelabel">Started:</span> May 9, 2018
               <br />
-              Completed:
+              <span className="Home_datelabel">Completed:</span> May 9, 2018
             </CardText>
             <Link to="/projects/frontend/Calculator">
-              <Button disabled color="primary">
-                View Project
-              </Button>
+              <Button color="info">View Project</Button>
             </Link>
           </CardBody>
         </Card>
