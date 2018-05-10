@@ -5,18 +5,85 @@ exports[`<TicTacToeGame /> renders correctly 1`] = `
   className="TicTacToeGame"
 >
   <div
-    className="container"
+    className="card"
   >
+    <h5
+      className="TicTacToeGame_title card-title"
+    >
+      Tic Tac Toe
+    </h5>
     <div
-      className="row"
+      className="card-body"
     >
       <div
-        className="col"
+        className="TicTacToeGame_grid"
       >
-        <h1>
-          Tic Tac Toe Game
-        </h1>
+        <div
+          className="TicTacToeGame_cell"
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="TicTacToeGame_cell"
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="TicTacToeGame_cell"
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="TicTacToeGame_cell"
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="TicTacToeGame_cell"
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="TicTacToeGame_cell"
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="TicTacToeGame_cell"
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="TicTacToeGame_cell"
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="TicTacToeGame_cell"
+          onClick={[Function]}
+        >
+          
+        </div>
       </div>
+    </div>
+    <div
+      className="card-footer"
+    >
+      <button
+        className="btn btn-info"
+        onClick={[Function]}
+        type="button"
+      >
+        New Game
+      </button>
     </div>
   </div>
 </div>
