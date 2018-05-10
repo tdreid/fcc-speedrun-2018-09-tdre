@@ -3,7 +3,7 @@ import { Card, CardText, CardBody, CardTitle, Button } from "reactstrap";
 
 import "./RandomQuoteMachine.css";
 
-const API_URL = "http://api.icndb.com/jokes/random";
+const API_URL = "https://api.icndb.com/jokes/random";
 const TWEET_URL =
   "https://twitter.com/intent/tweet?via=P1xt&hashtags=Speedrun&text=";
 
