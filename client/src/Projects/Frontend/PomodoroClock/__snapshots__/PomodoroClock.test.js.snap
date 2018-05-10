@@ -5,17 +5,105 @@ exports[`<PomodoroClock /> renders correctly 1`] = `
   className="PomodoroClock"
 >
   <div
-    className="container"
+    className="card"
   >
+    <h5
+      className="card-title"
+    >
+      Pomodoro Clock
+    </h5>
+    <h6
+      className="card-subtitle"
+    >
+      Session
+      <br />
+      25:00
+    </h6>
     <div
-      className="row"
+      className="card-body"
     >
       <div
-        className="col"
+        className="row"
       >
-        <h1>
-          Pomodoro Clock
-        </h1>
+        <div
+          className="col"
+        >
+          <div>
+            <p
+              className="PomodoroClock__length"
+            >
+              Session Length 
+            </p>
+            <button
+              className="btn btn-primary"
+              onClick={[Function]}
+              type="button"
+            >
+              +
+            </button>
+            25
+            <button
+              className="btn btn-primary"
+              onClick={[Function]}
+              type="button"
+            >
+              -
+            </button>
+          </div>
+        </div>
+        <div
+          className="col"
+        >
+          <div>
+            <p
+              className="PomodoroClock__length"
+            >
+              Break Length 
+            </p>
+            <button
+              className="btn btn-primary"
+              onClick={[Function]}
+              type="button"
+            >
+              +
+            </button>
+            5
+            <button
+              className="btn btn-primary"
+              onClick={[Function]}
+              type="button"
+            >
+              -
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="card-footer"
+    >
+      <div>
+        <button
+          className="btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Start
+        </button>
+        <button
+          className="btn btn-secondary"
+          onClick={[Function]}
+          type="button"
+        >
+          Pause
+        </button>
+        <button
+          className="btn btn-warning"
+          onClick={[Function]}
+          type="button"
+        >
+          Reset
+        </button>
       </div>
     </div>
   </div>

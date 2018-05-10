@@ -21,7 +21,7 @@ Stack: React/Express/MongoDB
 | Build a Wikipedia Viewer                                 |  May 8, 2018              |           |           |      |
 | Use the Twitch.tv JSON API                                  |  May 9, 2018              |           |           |      |
 | Build a JavaScript Calculator                                  |  May 9, 2018              |           |           |      |
-| Build a Pomodoro Clock                                     |               |           |           |      |
+| Build a Pomodoro Clock                                     |  May 10, 2018             |           |           |      |
 | Build a Tic Tac Toe Game                                   |               |           |           |      |
 | Build a Simon Game                                             |               |           |           |      |
 | Build a Markdown Previewer                             |               |           |           |      |
