@@ -15,7 +15,7 @@ Stack: React/Express/MongoDB
 | Project                                                                                     | Complete Date | Blog Post | Code Link | Demo |
 | ------------------------------------------------------------------------------------------- | ------------- | --------- | --------- | ---- |
 | Build a Tribute Page                                         |  May 8, 2018             |           |           |      |
-| Build a Personal Portfolio Webpage                              |               |           |           |      |
+| Build a Personal Portfolio Webpage                              |   May 10, 2018            |           |           |      |
 | Build a Random Quote Machine                         |  May 8, 2018              |           |           |      |
 | Show the Local Weather                                      |  May 8, 2018              |           |           |      |
 | Build a Wikipedia Viewer                                 |  May 8, 2018              |           |           |      |

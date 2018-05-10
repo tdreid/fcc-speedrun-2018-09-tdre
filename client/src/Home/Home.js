@@ -38,14 +38,12 @@ const Home = () => {
             <CardSubtitle>FreeCodeCamp Frontend Project</CardSubtitle>
             <CardText>
               <br />
-              Started:
+              <span className="Home_datelabel">Started:</span> May 10, 2018
               <br />
-              Completed:
+              <span className="Home_datelabel">Completed:</span> May 10, 2018
             </CardText>
             <Link to="/projects/frontend/PersonalPortfolioWebpage">
-              <Button disabled color="primary">
-                View Project
-              </Button>
+              <Button color="info">View Project</Button>
             </Link>
           </CardBody>
         </Card>
