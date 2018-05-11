@@ -37,7 +37,8 @@
     "Year": 2004,
     "Nationality": "USA",
     "Doping": "2004 Tour de France title stripped by UCI in 2012",
-    "URL": "https://en.wikipedia.org/wiki/History_of_Lance_Armstrong_doping_allegations"
+    "URL":
+      "https://en.wikipedia.org/wiki/History_of_Lance_Armstrong_doping_allegations"
   },
   {
     "Time": "37:42",
@@ -47,7 +48,8 @@
     "Year": 1997,
     "Nationality": "GER",
     "Doping": "Confessed later in his career to doping",
-    "URL": "https://en.wikipedia.org/wiki/Jan_Ullrich#Operaci.C3.B3n_Puerto_doping_case"
+    "URL":
+      "https://en.wikipedia.org/wiki/Jan_Ullrich#Operaci.C3.B3n_Puerto_doping_case"
   },
   {
     "Time": "38:05",
@@ -57,7 +59,8 @@
     "Year": 2001,
     "Nationality": "USA",
     "Doping": "2001 Tour de France title stripped by UCI in 2012",
-    "URL": "https://en.wikipedia.org/wiki/History_of_Lance_Armstrong_doping_allegations"
+    "URL":
+      "https://en.wikipedia.org/wiki/History_of_Lance_Armstrong_doping_allegations"
   },
   {
     "Time": "38:14",
@@ -67,7 +70,8 @@
     "Year": 1995,
     "Nationality": "ESP",
     "Doping": "1994 Failed test for salbutemol, not a banned drug at that time",
-    "URL": "http://www.independent.co.uk/sport/drugs-in-sport-indurain-allowed-to-use-banned-drug-1379584.html"
+    "URL":
+      "http://www.independent.co.uk/sport/drugs-in-sport-indurain-allowed-to-use-banned-drug-1379584.html"
   },
   {
     "Time": "38:14",
@@ -117,7 +121,8 @@
     "Year": 2006,
     "Nationality": "GER",
     "Doping": "Alleged use of illegal blood transfusions in 2006",
-    "URL": "https://en.wikipedia.org/wiki/Andreas_Kl%C3%B6den#2009_Doping_allegations"
+    "URL":
+      "https://en.wikipedia.org/wiki/Andreas_Kl%C3%B6den#2009_Doping_allegations"
   },
   {
     "Time": "38:40",
@@ -127,7 +132,8 @@
     "Year": 2004,
     "Nationality": "GER",
     "Doping": "Confessed later in his career to doping",
-    "URL": "https://en.wikipedia.org/wiki/Jan_Ullrich#Operaci.C3.B3n_Puerto_doping_case"
+    "URL":
+      "https://en.wikipedia.org/wiki/Jan_Ullrich#Operaci.C3.B3n_Puerto_doping_case"
   },
   {
     "Time": "38:44",
@@ -196,8 +202,10 @@
     "Name": "Levi Leipheimer",
     "Year": 2006,
     "Nationality": "USA",
-    "Doping": "Testified in 2012 to doping during his time with US Postal Service ",
-    "URL": "http://www.wsj.com/articles/SB10000872396390444799904578048352672452328"
+    "Doping":
+      "Testified in 2012 to doping during his time with US Postal Service ",
+    "URL":
+      "http://www.wsj.com/articles/SB10000872396390444799904578048352672452328"
   },
   {
     "Time": "39:22",
@@ -237,7 +245,8 @@
     "Year": 1994,
     "Nationality": "ESP",
     "Doping": "1994 Failed test for salbutemol, not a banned drug at that time",
-    "URL": "http://www.independent.co.uk/sport/drugs-in-sport-indurain-allowed-to-use-banned-drug-1379584.html"
+    "URL":
+      "http://www.independent.co.uk/sport/drugs-in-sport-indurain-allowed-to-use-banned-drug-1379584.html"
   },
   {
     "Time": "39:30",
@@ -307,7 +316,8 @@
     "Year": 1995,
     "Nationality": "ESP",
     "Doping": "Implicated in Giardini Margherita Raid in 1998 as a 'victim' ",
-    "URL": "http://www.dopeology.org/incidents/Giardini-Margherita-raid-%5bBologna%5d/"
+    "URL":
+      "http://www.dopeology.org/incidents/Giardini-Margherita-raid-%5bBologna%5d/"
   },
   {
     "Time": "39:47",
@@ -337,7 +347,8 @@
     "Year": 2006,
     "Nationality": "ITA",
     "Doping": "Associated with Mantova investigation, charges dropped",
-    "URL": "http://www.cyclingnews.com/news/italian-judge-set-to-decide-if-32-named-in-mantova-doping-investigation-should-go-on-trial/"
+    "URL":
+      "http://www.cyclingnews.com/news/italian-judge-set-to-decide-if-32-named-in-mantova-doping-investigation-should-go-on-trial/"
   },
   {
     "Time": "39:50",

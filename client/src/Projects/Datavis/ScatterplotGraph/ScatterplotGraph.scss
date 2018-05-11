@@ -1,8 +1,62 @@
 .ScatterplotGraph {
-  text-align: left;
+  text-align: center;
   margin-top: 40px;
 
   &>h1 {
     text-transform: none
+  }
+
+  .wrapper {
+    padding: 40px 60px;
+    margin: 20px auto;
+  }
+
+  svg {
+    padding: 0 0 0 10px;
+  }
+
+  &_d3-tip {
+    line-height: 1;
+    font-weight: bold;
+    padding: 12px;
+    background: #000000;
+    color: #fff;
+  }
+
+
+  circle {
+    stroke: rgb(204, 204, 204);
+    stroke-width: 1px;
+    cursor: pointer;
+  }
+
+  circle:hover {
+    stroke: black;
+  }
+  rect {
+    fill: #222222;
+  }
+
+  .legend {
+    fill: #fff;
+  }
+  .point-label {
+    font-size: 10px;
+  }
+  .axis-label {
+    fill: #222222;
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+  .graph.heading {
+    fill: #222222;
+    font-size: 1.7em;  
+    font-weight: bold;
+  }
+  .graph.subheading {
+    font-size: 1.4em;  
+  }
+  .graph.subsubheading {
+    font-size: 1.0em;  
   }
 }
