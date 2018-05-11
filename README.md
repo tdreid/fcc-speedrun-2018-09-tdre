@@ -29,7 +29,7 @@ Stack: React/Express/MongoDB
 | Build a Recipe Box                                   |               |           |           |      |
 | Build the Game of Life                               |               |           |           |      |
 | Build a Roguelike Dungeon Crawler                    |               |           |           |      |
-| Visualize Data with a Bar Chart                      |               |           |           |      |
+| Visualize Data with a Bar Chart                      | May 11, 2018   |           |           |      |
 | Visualize Data with a Scatterplot Graph              |               |           |           |      |
 | Visualize Data with a Heat Map                       |               |           |           |      |
 | Show National Contiguity with a Force Directed Graph |               |           |           |      |

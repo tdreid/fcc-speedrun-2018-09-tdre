@@ -179,7 +179,7 @@ const Home = () => {
               <br />
               Completed:
             </CardText>
-            <Link to="/projects/frontend/MarkdownPreviewer">
+            <Link to="/projects/datavis/MarkdownPreviewer">
               <Button disabled color="primary">
                 View Project
               </Button>
@@ -196,7 +196,7 @@ const Home = () => {
               <br />
               Completed:
             </CardText>
-            <Link to="/projects/frontend/CamperLeaderboard">
+            <Link to="/projects/datavis/CamperLeaderboard">
               <Button disabled color="primary">
                 View Project
               </Button>
@@ -213,7 +213,7 @@ const Home = () => {
               <br />
               Completed:
             </CardText>
-            <Link to="/projects/frontend/RecipeBox">
+            <Link to="/projects/datavis/RecipeBox">
               <Button disabled color="primary">
                 View Project
               </Button>
@@ -222,7 +222,7 @@ const Home = () => {
         </Card>
         <Card>
           <CardBody>
-            <CardTitle>Gameof Live</CardTitle>
+            <CardTitle>Game of Life</CardTitle>
             <CardSubtitle>FreeCodeCamp Datavis Project</CardSubtitle>
             <CardText>
               <br />
@@ -230,7 +230,7 @@ const Home = () => {
               <br />
               Completed:
             </CardText>
-            <Link to="/projects/frontend/GameofLive">
+            <Link to="/projects/datavis/GameofLive">
               <Button disabled color="primary">
                 View Project
               </Button>
@@ -247,7 +247,7 @@ const Home = () => {
               <br />
               Completed:
             </CardText>
-            <Link to="/projects/frontend/RoguelikeGame">
+            <Link to="/projects/datavis/RoguelikeGame">
               <Button disabled color="primary">
                 View Project
               </Button>
@@ -260,14 +260,12 @@ const Home = () => {
             <CardSubtitle>FreeCodeCamp Datavis Project</CardSubtitle>
             <CardText>
               <br />
-              Started:
+              <span className="Home_datelabel">Started:</span> May 11, 2018
               <br />
-              Completed:
+              <span className="Home_datelabel">Completed:</span> May 11, 2018
             </CardText>
-            <Link to="/projects/frontend/BarChart">
-              <Button disabled color="primary">
-                View Project
-              </Button>
+            <Link to="/projects/datavis/BarChart">
+              <Button color="info">View Project</Button>
             </Link>
           </CardBody>
         </Card>
@@ -281,7 +279,7 @@ const Home = () => {
               <br />
               Completed:
             </CardText>
-            <Link to="/projects/frontend/ScatterplotGraph">
+            <Link to="/projects/datavis/ScatterplotGraph">
               <Button disabled color="primary">
                 View Project
               </Button>
@@ -298,7 +296,7 @@ const Home = () => {
               <br />
               Completed:
             </CardText>
-            <Link to="/projects/frontend/HeatMap">
+            <Link to="/projects/datavis/HeatMap">
               <Button disabled color="primary">
                 View Project
               </Button>
@@ -315,7 +313,7 @@ const Home = () => {
               <br />
               Completed:
             </CardText>
-            <Link to="/projects/frontend/ForceDirectedGraph">
+            <Link to="/projects/datavis/ForceDirectedGraph">
               <Button disabled color="primary">
                 View Project
               </Button>
@@ -332,7 +330,7 @@ const Home = () => {
               <br />
               Completed:
             </CardText>
-            <Link to="/projects/frontend/DataAcrosstheGlobe">
+            <Link to="/projects/datavis/DataAcrosstheGlobe">
               <Button disabled color="primary">
                 View Project
               </Button>
@@ -349,7 +347,7 @@ const Home = () => {
               <br />
               Completed:
             </CardText>
-            <Link to="/projects/frontend/TimestampMicroservice">
+            <Link to="/projects/backend/TimestampMicroservice">
               <Button disabled color="primary">
                 View Project
               </Button>
@@ -366,7 +364,7 @@ const Home = () => {
               <br />
               Completed:
             </CardText>
-            <Link to="/projects/frontend/RequestHeaderParser">
+            <Link to="/projects/backend/RequestHeaderParser">
               <Button disabled color="primary">
                 View Project
               </Button>
@@ -383,7 +381,7 @@ const Home = () => {
               <br />
               Completed:
             </CardText>
-            <Link to="/projects/frontend/URLShortener">
+            <Link to="/projects/backend/URLShortener">
               <Button disabled color="primary">
                 View Project
               </Button>
@@ -400,7 +398,7 @@ const Home = () => {
               <br />
               Completed:
             </CardText>
-            <Link to="/projects/frontend/ImageSearch">
+            <Link to="/projects/backend/ImageSearch">
               <Button disabled color="primary">
                 View Project
               </Button>
@@ -417,7 +415,7 @@ const Home = () => {
               <br />
               Completed:
             </CardText>
-            <Link to="/projects/frontend/FileMetadata">
+            <Link to="/projects/backend/FileMetadata">
               <Button disabled color="primary">
                 View Project
               </Button>
@@ -434,7 +432,7 @@ const Home = () => {
               <br />
               Completed:
             </CardText>
-            <Link to="/projects/frontend/VotingApp">
+            <Link to="/projects/backend/VotingApp">
               <Button disabled color="primary">
                 View Project
               </Button>
@@ -451,7 +449,7 @@ const Home = () => {
               <br />
               Completed:
             </CardText>
-            <Link to="/projects/frontend/NightlifeCoordination">
+            <Link to="/projects/backend/NightlifeCoordination">
               <Button disabled color="primary">
                 View Project
               </Button>
@@ -468,7 +466,7 @@ const Home = () => {
               <br />
               Completed:
             </CardText>
-            <Link to="/projects/frontend/StockMarket">
+            <Link to="/projects/backend/StockMarket">
               <Button disabled color="primary">
                 View Project
               </Button>
@@ -485,7 +483,7 @@ const Home = () => {
               <br />
               Completed:
             </CardText>
-            <Link to="/projects/frontend/BookTradingClub">
+            <Link to="/projects/backend/BookTradingClub">
               <Button disabled color="primary">
                 View Project
               </Button>
@@ -502,7 +500,7 @@ const Home = () => {
               <br />
               Completed:
             </CardText>
-            <Link to="/projects/frontend/PinterestClone">
+            <Link to="/projects/backend/PinterestClone">
               <Button disabled color="primary">
                 View Project
               </Button>
