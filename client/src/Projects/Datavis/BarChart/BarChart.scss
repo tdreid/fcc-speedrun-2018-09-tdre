@@ -2,9 +2,8 @@
   text-align: center;
   margin-top: 40px;
 
-
-  &>h1 {
-    text-transform: none
+  & > h1 {
+    text-transform: none;
   }
 
   .bar {
@@ -12,7 +11,7 @@
   }
 
   .bar:hover {
-    fill: rgb(184, 87, 8);;
+    fill: rgb(184, 87, 8);
   }
 
   .heading {
@@ -38,4 +37,3 @@
     color: #fff;
   }
 }
- 
