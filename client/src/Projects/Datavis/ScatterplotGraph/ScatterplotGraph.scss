@@ -2,8 +2,8 @@
   text-align: center;
   margin-top: 40px;
 
-  &>h1 {
-    text-transform: none
+  & > h1 {
+    text-transform: none;
   }
 
   .wrapper {
@@ -22,7 +22,6 @@
     background: #000000;
     color: #fff;
   }
-
 
   circle {
     stroke: rgb(204, 204, 204);
@@ -50,13 +49,13 @@
   }
   .graph.heading {
     fill: #222222;
-    font-size: 1.7em;  
+    font-size: 1.7em;
     font-weight: bold;
   }
   .graph.subheading {
-    font-size: 1.4em;  
+    font-size: 1.4em;
   }
   .graph.subsubheading {
-    font-size: 1.0em;  
+    font-size: 1em;
   }
 }
