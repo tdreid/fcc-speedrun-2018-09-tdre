@@ -25,7 +25,7 @@ Stack: React/Express/MongoDB
 | Build a Tic Tac Toe Game                             | May 10, 2018  |           |           |      |
 | Build a Simon Game                                   |               |           |           |      |
 | Build a Markdown Previewer                           | May 12, 2018  |           |           |      |
-| Build a Camper Leaderboard                           |               |           |           |      |
+| Build a Camper Leaderboard                           | May 12, 2018  |           |           |      |
 | Build a Recipe Box                                   |               |           |           |      |
 | Build the Game of Life                               |               |           |           |      |
 | Build a Roguelike Dungeon Crawler                    |               |           |           |      |
