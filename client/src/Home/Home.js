@@ -209,14 +209,12 @@ const Home = () => {
             <CardSubtitle>FreeCodeCamp Datavis Project</CardSubtitle>
             <CardText>
               <br />
-              Started:
+              <span className="Home_datelabel">Started:</span> May 12, 2018
               <br />
-              Completed:
+              <span className="Home_datelabel">Completed:</span> May 12, 2018
             </CardText>
             <Link to="/projects/datavis/RecipeBox">
-              <Button disabled color="primary">
-                View Project
-              </Button>
+              <Button color="info">View Project</Button>
             </Link>
           </CardBody>
         </Card>
