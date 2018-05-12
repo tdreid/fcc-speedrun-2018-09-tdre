@@ -2,7 +2,26 @@
   text-align: left;
   margin-top: 40px;
 
-  &>h1 {
-    text-transform: none
+  & > h1 {
+    text-transform: none;
+  }
+  &_input {
+    textarea {
+      min-height: 600px;
+    }
+  }
+  &_output {
+    padding: 20px;
+    background: #ffffff;
+    height: 600px;
+    overflow: scroll;
+
+    table {
+      tr {
+      }
+      td {
+        border: 1px solid #cccccc;
+      }
+    }
   }
 }
