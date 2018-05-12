@@ -175,14 +175,12 @@ const Home = () => {
             <CardSubtitle>FreeCodeCamp Datavis Project</CardSubtitle>
             <CardText>
               <br />
-              Started:
+              <span className="Home_datelabel">Started:</span> May 12, 2018
               <br />
-              Completed:
+              <span className="Home_datelabel">Completed:</span> May 12, 2018
             </CardText>
             <Link to="/projects/datavis/MarkdownPreviewer">
-              <Button disabled color="primary">
-                View Project
-              </Button>
+              <Button color="info">View Project</Button>
             </Link>
           </CardBody>
         </Card>
@@ -192,14 +190,12 @@ const Home = () => {
             <CardSubtitle>FreeCodeCamp Datavis Project</CardSubtitle>
             <CardText>
               <br />
-              Started:
+              <span className="Home_datelabel">Started:</span> May 12, 2018
               <br />
-              Completed:
+              <span className="Home_datelabel">Completed:</span> May 12, 2018
             </CardText>
             <Link to="/projects/datavis/CamperLeaderboard">
-              <Button disabled color="primary">
-                View Project
-              </Button>
+              <Button color="info">View Project</Button>
             </Link>
           </CardBody>
         </Card>
@@ -318,7 +314,7 @@ const Home = () => {
         </Card>
         <Card>
           <CardBody>
-            <CardTitle>Data Acrossthe Globe</CardTitle>
+            <CardTitle>Data Across the Globe</CardTitle>
             <CardSubtitle>FreeCodeCamp Datavis Project</CardSubtitle>
             <CardText>
               <br />
