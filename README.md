@@ -14,23 +14,23 @@ Stack: React/Express/MongoDB
 
 | Project                                              | Complete Date | Blog Post | Code Link | Demo |
 | ---------------------------------------------------- | ------------- | --------- | --------- | ---- |
-| Build a Tribute Page                                 | May 8, 2018   |           |           |      |
-| Build a Personal Portfolio Webpage                   | May 10, 2018  |           |           |      |
-| Build a Random Quote Machine                         | May 8, 2018   |           |           |      |
-| Show the Local Weather                               | May 8, 2018   |           |           |      |
-| Build a Wikipedia Viewer                             | May 8, 2018   |           |           |      |
-| Use the Twitch.tv JSON API                           | May 9, 2018   |           |           |      |
-| Build a JavaScript Calculator                        | May 9, 2018   |           |           |      |
-| Build a Pomodoro Clock                               | May 10, 2018  |           |           |      |
-| Build a Tic Tac Toe Game                             | May 10, 2018  |           |           |      |
+| Build a Tribute Page                                 |               |           |           |      |
+| Build a Personal Portfolio Webpage                   |               |           |           |      |
+| Build a Random Quote Machine                         |               |           |           |      |
+| Show the Local Weather                               |               |           |           |      |
+| Build a Wikipedia Viewer                             |               |           |           |      |
+| Use the Twitch.tv JSON API                           |               |           |           |      |
+| Build a JavaScript Calculator                        |               |           |           |      |
+| Build a Pomodoro Clock                               |               |           |           |      |
+| Build a Tic Tac Toe Game                             |               |           |           |      |
 | Build a Simon Game                                   |               |           |           |      |
-| Build a Markdown Previewer                           | May 12, 2018  |           |           |      |
-| Build a Camper Leaderboard                           | May 12, 2018  |           |           |      |
+| Build a Markdown Previewer                           |               |           |           |      |
+| Build a Camper Leaderboard                           |               |           |           |      |
 | Build a Recipe Box                                   |               |           |           |      |
 | Build the Game of Life                               |               |           |           |      |
 | Build a Roguelike Dungeon Crawler                    |               |           |           |      |
-| Visualize Data with a Bar Chart                      | May 11, 2018  |           |           |      |
-| Visualize Data with a Scatterplot Graph              | May 11, 2018  |           |           |      |
+| Visualize Data with a Bar Chart                      |               |           |           |      |
+| Visualize Data with a Scatterplot Graph              |               |           |           |      |
 | Visualize Data with a Heat Map                       |               |           |           |      |
 | Show National Contiguity with a Force Directed Graph |               |           |           |      |
 | Map Data Across the Globe                            |               |           |           |      |
