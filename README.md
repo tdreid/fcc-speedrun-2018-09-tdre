@@ -2,19 +2,19 @@
 
 ---
 
-Start date: May 7, 2018  
+Start date: Nov 4, 2018  
 End Date:  
-Projects Completed: 0
+Projects Completed: 1
 
 ---
  
 Starting with FreeCodeCamp Projects
 
-Stack: React/Express/MongoDB
+Stack: Node, Express, [Rjay](https://github.com/tdreid/rjay)
 
-| Project                                              | Complete Date | Blog Post | Code Link | Demo |
+| Project                                              | Complete Date | Blog Post | Repo      | Time |
 | ---------------------------------------------------- | ------------- | --------- | --------- | ---- |
-| Build a Tribute Page                                 |               |           |           |      |
+| Build a Tribute Page                                 |  2018-11-04   | [2018-11-05](https://steemit.com/utopian-io/@tdre/speedrunning-through-free-code-camp-s-project-list)| [Alligotor Tribute](https://github.com/tdreid/alligator-tribute) | 1 hour 38 min     |
 | Build a Personal Portfolio Webpage                   |               |           |           |      |
 | Build a Random Quote Machine                         |               |           |           |      |
 | Show the Local Weather                               |               |           |           |      |
