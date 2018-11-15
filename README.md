@@ -17,4 +17,4 @@ Stack: Node, Express, [Rjay](https://github.com/tdreid/rjay)
 | Build a Survey Form                                  |  2018-11-14   |           | [Survey Form](https://github.com/tdreid/fcc-survey-form)           | 57 m |
 | Build a Technical Documentation Page                 |               |           |           |      |
 | Build a Personal Portfolio Webpage                   |               |           |           |      |
-|                                                      |               |           | TOTAL     | 5 h 22 m      |
+|                                                      |               |           | TOTAL     | 3 h 42 m      |
